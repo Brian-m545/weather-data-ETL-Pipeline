@@ -1,7 +1,7 @@
 
 # Nairobi Weather ETL Pipeline 
 
-This project implements an Extract, Transform, Load (ETL) pipeline to collect current weather data for Nairobi, Kenya, from the OpenWeatherMap API, process it, and store it in a PostgreSQL database hosted on Aiven. DBeaver is used as a database client for connection and management.
+This project is an end-to-end ETL (Extract, Transform, Load) pipeline that fetches current weather data for Nairobi using the OpenWeather API, processes the data with Pandas, and stores it in a PostgreSQL database. The pipeline captures key weather metrics such as temperature (Kelvin), humidity, and weather description for further analysis or reporting.
 
 ---
 
@@ -44,6 +44,6 @@ python -m venv venv
 ```
 
 ###  Acknowledgments
-- OpeOpenWeatherMap: For providing the weather API.
+- OpenWeatherMap: For providing the weather API.
 - Aiven: For providing managed PostgreSQL database services.
 - DBeaver: For the excellent database management tool.
