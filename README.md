@@ -34,11 +34,9 @@ git clone https://github.com/Brian-m545/weather-data-ETL-Pipeline.git
 cd weather-data-ETL-Pipeline
 
 ## Install Dependancies
-```bash
 pip install -r requirements.txt
 
 ##  Create a virtual environment:
-``bash
 python -m venv venv
 
 ```
